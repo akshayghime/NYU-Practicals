@@ -1,0 +1,21 @@
+[MFLOG|0|2025-04-14T09:17:52.128031Z|runtime|9b765c46-3a2a-4a16-a077-ccd214dcb6af]COMET INFO: Experiment is live on comet.com https://www.comet.com/akshayghime/fraud-detection/bde18aeb5b1949e6b6abb19ec10a2a18
+[MFLOG|0|2025-04-14T09:17:52.412907Z|runtime|4fb15137-c9cb-4439-b396-6d5a9859156b]
+[MFLOG|0|2025-04-14T09:17:52.413073Z|runtime|a61dc682-2bc2-49db-b803-2eb00868848c]COMET INFO: The process of logging environment details (conda environment, git patch) is underway. Please be patient as this may take some time.
+[MFLOG|0|2025-04-14T09:18:01.692978Z|runtime|46c2a5ff-f704-4830-b98d-74214ac14524]COMET INFO: ---------------------------------------------------------------------------------------
+[MFLOG|0|2025-04-14T09:18:01.693128Z|runtime|8b20e939-83db-499b-97ee-0e756007a18e]COMET INFO: Comet.ml Experiment Summary
+[MFLOG|0|2025-04-14T09:18:01.693168Z|runtime|78db7fb1-ed4f-46dc-b374-7e4565b0c0ef]COMET INFO: ---------------------------------------------------------------------------------------
+[MFLOG|0|2025-04-14T09:18:01.693202Z|runtime|332bdb00-11a3-4734-85a8-892665920bfc]COMET INFO:   Data:
+[MFLOG|0|2025-04-14T09:18:01.693238Z|runtime|1c39ca36-2692-4fcd-8e73-1849997454a6]COMET INFO:     display_summary_level : 1
+[MFLOG|0|2025-04-14T09:18:01.693268Z|runtime|e572a91a-8c59-47a9-8f94-71f9c04ecfa0]COMET INFO:     name                  : miniature_quelea_4032
+[MFLOG|0|2025-04-14T09:18:01.693299Z|runtime|8251089e-dc85-4750-9253-37c9289a84ac]COMET INFO:     url                   : https://www.comet.com/akshayghime/fraud-detection/bde18aeb5b1949e6b6abb19ec10a2a18
+[MFLOG|0|2025-04-14T09:18:01.693330Z|runtime|3787909c-2b2a-46aa-a798-674de830d3dd]COMET INFO:   Metrics:
+[MFLOG|0|2025-04-14T09:18:01.693359Z|runtime|b11dfa17-ec96-4d25-8e12-34dad656279e]COMET INFO:     auc : 0.6600310677335208
+[MFLOG|0|2025-04-14T09:18:01.693386Z|runtime|ffb5a527-0fec-4fc4-9348-19e3e0df921f]COMET INFO:   Uploads:
+[MFLOG|0|2025-04-14T09:18:01.693413Z|runtime|cb7f5136-c3e8-4692-be62-2b9d10d24a33]COMET INFO:     environment details      : 1
+[MFLOG|0|2025-04-14T09:18:01.693440Z|runtime|f14f915a-7df7-4414-8c60-3364ddac2e0f]COMET INFO:     filename                 : 1
+[MFLOG|0|2025-04-14T09:18:01.693466Z|runtime|7ec8bc99-dfe0-4600-b292-6d3d53d5739e]COMET INFO:     git metadata             : 1
+[MFLOG|0|2025-04-14T09:18:01.693492Z|runtime|2d7e4c7e-2876-47f6-aa60-c5ed75e0090d]COMET INFO:     git-patch (uncompressed) : 1 (181 bytes)
+[MFLOG|0|2025-04-14T09:18:01.693519Z|runtime|ceaf32c2-5e8e-43f8-8fa7-aa430c01df8e]COMET INFO:     installed packages       : 1
+[MFLOG|0|2025-04-14T09:18:04.341728Z|runtime|4236a9ff-c17a-4399-b6c4-a999cb0ca7bc]COMET INFO:     os packages              : 1
+[MFLOG|0|2025-04-14T09:18:04.341867Z|runtime|7e87706a-5005-4a93-a19f-46fc83eaf1d9]COMET INFO:     source_code              : 1 (6.76 KB)
+[MFLOG|0|2025-04-14T09:18:04.341902Z|runtime|72256418-7074-4035-8b02-d4663a122e6c]COMET INFO: 

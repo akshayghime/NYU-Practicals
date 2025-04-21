@@ -1,0 +1,30 @@
+[MFLOG|0|2025-04-08T07:22:51.022803Z|runtime|7f786440-09a8-4d84-929f-441780236125]<flow SampleRegressionFlow step start> failed:
+[MFLOG|0|2025-04-08T07:22:51.024907Z|runtime|3e245cca-382b-46d5-aa3d-9f1c6afc1e09]    Internal error
+[MFLOG|0|2025-04-08T07:22:51.025285Z|runtime|7a43506d-acf4-4c7a-9bac-b89cc9241450]Traceback (most recent call last):
+[MFLOG|0|2025-04-08T07:22:51.025392Z|runtime|47a666c0-a7fd-4835-b88f-eb3797b9372a]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/cli.py", line 611, in main
+[MFLOG|0|2025-04-08T07:22:51.025435Z|runtime|714a1edd-4c28-4284-948a-4289887d92de]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2025-04-08T07:22:51.025468Z|runtime|20c0fb9a-8131-459c-9d4a-3efb7bb0f076]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2025-04-08T07:22:51.025500Z|runtime|e98ecba7-2cd3-4db0-87bc-91bc509ce78a]    return self.main(args, kwargs)
+[MFLOG|0|2025-04-08T07:22:51.025532Z|runtime|9b618cf5-a19e-4209-8b73-3d534091d6cf]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2025-04-08T07:22:51.025562Z|runtime|356cc30d-b408-4976-baf0-3a33f3be9405]    rv = self.invoke(ctx)
+[MFLOG|0|2025-04-08T07:22:51.025593Z|runtime|7007fcda-7353-4090-b0cc-41155e800724]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/cli_components/utils.py", line 69, in invoke
+[MFLOG|0|2025-04-08T07:22:51.025621Z|runtime|0ae6b7ba-8b20-4c7b-bc99-76bb9cc2aa7e]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2025-04-08T07:22:51.025654Z|runtime|a43a1bdb-db5d-490b-a09b-69171be7b7dc]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2025-04-08T07:22:51.025682Z|runtime|bc43848b-41df-46fb-8538-6b8effc2bdfb]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2025-04-08T07:22:51.025709Z|runtime|373a4f60-ea8d-4206-a242-7d6fc5ceb510]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2025-04-08T07:22:51.025738Z|runtime|8a6f8d80-a882-4b3f-bfc1-4536fb9583d1]    return callback(args, kwargs)
+[MFLOG|0|2025-04-08T07:22:51.025768Z|runtime|97035701-52c5-4a37-b66d-3ffe2fc5002e]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/tracing/__init__.py", line 27, in wrapper_func
+[MFLOG|0|2025-04-08T07:22:51.025797Z|runtime|0dc321cf-b423-41eb-9a9e-82615db61a06]    return func(args, kwargs)
+[MFLOG|0|2025-04-08T07:22:51.025825Z|runtime|444e1ef6-6e6f-482a-9702-52ed6858f9a4]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2025-04-08T07:22:51.025854Z|runtime|524ef09e-5c2d-48c0-9320-b3457173ec3a]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2025-04-08T07:22:51.025882Z|runtime|048e136a-3336-49bf-b166-411eeb2f80fc]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/cli_components/step_cmd.py", line 167, in step
+[MFLOG|0|2025-04-08T07:22:51.025911Z|runtime|082c2ed0-c33a-4e08-b9b8-b43e69bb968c]    task.run_step(
+[MFLOG|0|2025-04-08T07:22:51.025939Z|runtime|bde6aa50-6e82-4628-a874-a169ae5ef4b2]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/task.py", line 672, in run_step
+[MFLOG|0|2025-04-08T07:22:51.025968Z|runtime|cb82db09-8a2e-461d-8fc4-9cdd068b478e]    self._exec_step_function(step_func)
+[MFLOG|0|2025-04-08T07:22:51.025998Z|runtime|4880db29-326a-4473-a187-61b839144f4b]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/task.py", line 62, in _exec_step_function
+[MFLOG|0|2025-04-08T07:22:51.026028Z|runtime|c684f134-976b-454f-9aaf-9eb423f8ed2f]    step_function()
+[MFLOG|0|2025-04-08T07:22:51.026056Z|runtime|bffcc574-17a6-4336-8600-d128aa9f8578]  File "/home/akshayghime/NYU-Practicals/week-9/src/my_small_flow.py", line 50, in start
+[MFLOG|0|2025-04-08T07:22:51.026083Z|runtime|24001460-be29-4e83-a1a5-9169e4005684]    print("Starting up at {}".format(datetime.now(datetime.timezone.utc)))
+[MFLOG|0|2025-04-08T07:22:51.026111Z|runtime|9b34a3dc-f60a-45eb-a195-64357dbfc322]AttributeError: type object 'datetime.datetime' has no attribute 'timezone'
+[MFLOG|0|2025-04-08T07:22:51.026148Z|runtime|63193304-e7bd-4497-b934-6d82010763c3]
+[MFLOG|0|2025-04-08T07:22:51.049959Z|runtime|087c17fd-4f71-4c6b-a99e-d341e4cd2318]Task failed.

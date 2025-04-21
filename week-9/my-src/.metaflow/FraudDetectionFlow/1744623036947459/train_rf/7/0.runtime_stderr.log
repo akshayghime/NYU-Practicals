@@ -1,0 +1,23 @@
+[MFLOG|0|2025-04-14T09:30:51.939184Z|runtime|a1f1a780-1138-4a63-bf68-a3999bee3349]COMET INFO: Experiment is live on comet.com https://www.comet.com/akshayghime/fraud-detection/d8f6ff25561744a7afdaddf503f9c628
+[MFLOG|0|2025-04-14T09:30:52.708322Z|runtime|c765ddec-9769-43cf-8088-c5dec71cb90a]
+[MFLOG|0|2025-04-14T09:30:52.708472Z|runtime|f9d4b04d-f1d9-439f-9d22-9dcf0dfe5ff9]COMET INFO: The process of logging environment details (conda environment, git patch) is underway. Please be patient as this may take some time.
+[MFLOG|0|2025-04-14T09:31:01.693493Z|runtime|206eb2f3-15de-47c2-a980-ccd4943a25ef]COMET INFO: ---------------------------------------------------------------------------------------
+[MFLOG|0|2025-04-14T09:31:01.693666Z|runtime|c3e759fe-bee7-4a7b-90ad-e03ea900b380]COMET INFO: Comet.ml Experiment Summary
+[MFLOG|0|2025-04-14T09:31:01.693713Z|runtime|74e06e66-9213-41d4-8fcf-e133338e1671]COMET INFO: ---------------------------------------------------------------------------------------
+[MFLOG|0|2025-04-14T09:31:01.693748Z|runtime|463fd4f9-d49d-4347-a375-3a5ae58ac1c6]COMET INFO:   Data:
+[MFLOG|0|2025-04-14T09:31:01.693781Z|runtime|de2b2e0f-2805-4dbf-bc4b-e7706ede9b52]COMET INFO:     display_summary_level : 1
+[MFLOG|0|2025-04-14T09:31:01.693813Z|runtime|374131c5-86a0-4882-8f52-6c3128a31a0c]COMET INFO:     name                  : previous_plateau_9432
+[MFLOG|0|2025-04-14T09:31:01.693871Z|runtime|01966266-5fc8-4abf-ab98-c3def46d9340]COMET INFO:     url                   : https://www.comet.com/akshayghime/fraud-detection/d8f6ff25561744a7afdaddf503f9c628
+[MFLOG|0|2025-04-14T09:31:01.693910Z|runtime|2e05db56-eddb-439f-a417-bed579c582da]COMET INFO:   Metrics:
+[MFLOG|0|2025-04-14T09:31:01.693953Z|runtime|48785cff-0404-431e-a65a-5a8a63f665dc]COMET INFO:     auc : 0.5952870834432427
+[MFLOG|0|2025-04-14T09:31:01.693985Z|runtime|67a31ec2-2f9b-450e-8810-f65f45718a6f]COMET INFO:   Uploads:
+[MFLOG|0|2025-04-14T09:31:01.694044Z|runtime|cccabe16-8b46-4e31-b9be-ebbb035bb54e]COMET INFO:     environment details      : 1
+[MFLOG|0|2025-04-14T09:31:01.694094Z|runtime|ac5f825f-3b22-400d-8cc5-d6cef05fc9eb]COMET INFO:     filename                 : 1
+[MFLOG|0|2025-04-14T09:31:01.694134Z|runtime|0b62b4c2-1b57-41e0-b1b2-22d55e62eba9]COMET INFO:     git metadata             : 1
+[MFLOG|0|2025-04-14T09:31:01.694277Z|runtime|48877c15-6115-47a7-92f1-a420611566a2]COMET INFO:     git-patch (uncompressed) : 1 (181 bytes)
+[MFLOG|0|2025-04-14T09:31:01.694362Z|runtime|b2d72663-098d-4173-b8a7-f473c3259532]COMET INFO:     installed packages       : 1
+[MFLOG|0|2025-04-14T09:31:01.694404Z|runtime|81c2e7d5-e0f8-4557-a79d-794cd90767a7]COMET INFO:     os packages              : 1
+[MFLOG|0|2025-04-14T09:31:01.694439Z|runtime|b7972b83-e301-4cd3-9045-0a3a97043268]COMET INFO:     source_code              : 1 (6.73 KB)
+[MFLOG|0|2025-04-14T09:31:02.865837Z|runtime|c0d4a423-f024-42d2-99a0-6ce05701cb39]COMET INFO: 
+[MFLOG|0|2025-04-14T09:31:02.866458Z|runtime|81b9bb75-5a2b-415b-bc2e-2405cc7e1a54]COMET INFO: Please wait for metadata to finish uploading (timeout is 3600 seconds)
+[MFLOG|0|2025-04-14T09:31:04.517046Z|runtime|9f60b205-908a-4345-b535-669da0d83b22]COMET INFO: Uploading 20 metrics, params and output messages

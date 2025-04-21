@@ -1,0 +1,2 @@
+scikit-learn==1.6.0
+comet-ml==3.49.7

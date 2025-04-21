@@ -1,0 +1,34 @@
+[MFLOG|0|2025-04-14T09:18:05.792217Z|runtime|a2f6a709-6a5d-4fc9-b669-dde9931ffebc]<flow FraudDetectionFlow step join> failed:
+[MFLOG|0|2025-04-14T09:18:05.793929Z|runtime|44fc7315-0229-4943-ae34-501579599ca2]    Internal error
+[MFLOG|0|2025-04-14T09:18:05.794590Z|runtime|fffeb2dc-2fff-4bcf-9d34-39275a664a12]Traceback (most recent call last):
+[MFLOG|0|2025-04-14T09:18:06.049439Z|runtime|74ff84a1-510b-407f-a6bf-8b547516df50]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/cli.py", line 611, in main
+[MFLOG|0|2025-04-14T09:18:06.049579Z|runtime|c8c1df4a-ec44-4cc2-bc36-10a9fed4377e]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2025-04-14T09:18:06.049617Z|runtime|efcfe27c-eb7a-47a4-a68f-de064fdb3698]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2025-04-14T09:18:06.049659Z|runtime|e593d90c-f39f-49d4-85cc-5d40b74fb0f0]    return self.main(args, kwargs)
+[MFLOG|0|2025-04-14T09:18:06.049688Z|runtime|2146ed6b-6dee-4043-920c-9c7154454b3e]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2025-04-14T09:18:06.049715Z|runtime|5d87f76e-fa0c-4d08-bcd3-7415ac0eb9d6]    rv = self.invoke(ctx)
+[MFLOG|0|2025-04-14T09:18:06.049742Z|runtime|155015a1-63ae-4270-9e26-d2cfb98c42e2]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/cli_components/utils.py", line 69, in invoke
+[MFLOG|0|2025-04-14T09:18:06.049775Z|runtime|899f0f8d-6ed6-4147-a2ed-12b2ce2e887d]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2025-04-14T09:18:06.049807Z|runtime|e869298d-9a01-4c33-82ed-20511f3e96b9]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2025-04-14T09:18:06.049833Z|runtime|05fcdcd7-5643-454d-ad11-bca8e6dc8540]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2025-04-14T09:18:06.049859Z|runtime|4fa2d04f-83be-4a2b-80e3-aec9481cfcdf]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2025-04-14T09:18:06.049884Z|runtime|33a1c337-2582-46d5-800e-c5afeda953ba]    return callback(args, kwargs)
+[MFLOG|0|2025-04-14T09:18:06.049910Z|runtime|bdfe54c0-65c2-49a3-a867-a624ebd288d3]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/tracing/__init__.py", line 27, in wrapper_func
+[MFLOG|0|2025-04-14T09:18:06.049934Z|runtime|0164abca-62e3-4143-9637-ffb1ea79d92d]    return func(args, kwargs)
+[MFLOG|0|2025-04-14T09:18:06.049958Z|runtime|2be052c9-6dc6-4a34-8b68-1aea50181d71]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2025-04-14T09:18:06.049983Z|runtime|5f19f672-dd84-42e0-8fbd-6bc399374386]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2025-04-14T09:18:06.050007Z|runtime|2e73ad3d-33e6-40af-af20-1d90f309f48f]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/cli_components/step_cmd.py", line 167, in step
+[MFLOG|0|2025-04-14T09:18:06.050031Z|runtime|6566fddb-d905-461f-aa51-6ef06947bf33]    task.run_step(
+[MFLOG|0|2025-04-14T09:18:06.050056Z|runtime|b956b7b6-86c5-4175-8993-4ee6fc02eb3c]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/task.py", line 670, in run_step
+[MFLOG|0|2025-04-14T09:18:06.050081Z|runtime|d8c5cc4b-5c19-4ed3-a2f7-23e11d1a7719]    self._exec_step_function(step_func, input_obj)
+[MFLOG|0|2025-04-14T09:18:06.050105Z|runtime|76829bef-2681-49c1-aa35-c520a8e45081]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/task.py", line 64, in _exec_step_function
+[MFLOG|0|2025-04-14T09:18:06.050128Z|runtime|f4c7e961-c982-42aa-be5e-79bfccee9855]    step_function(input_obj)
+[MFLOG|0|2025-04-14T09:18:06.050152Z|runtime|7ff3be95-9cce-4264-8a2e-cd83b9e663b6]  File "/home/akshayghime/NYU-Practicals/week-9/my-src/my_model.py", line 193, in join
+[MFLOG|0|2025-04-14T09:18:06.050176Z|runtime|636f3ca7-fb0d-438d-8499-fb3ea43c7714]    best = max(inputs, key=lambda x: x.auc)
+[MFLOG|0|2025-04-14T09:18:06.050201Z|runtime|6359ee55-9767-4131-92f0-886e3ab71a50]  File "/home/akshayghime/NYU-Practicals/week-9/my-src/my_model.py", line 193, in <lambda>
+[MFLOG|0|2025-04-14T09:18:06.050227Z|runtime|b908a539-e492-4106-8053-267038574e79]    best = max(inputs, key=lambda x: x.auc)
+[MFLOG|0|2025-04-14T09:18:06.050252Z|runtime|bc270eaa-e59a-4bf7-b217-ef1e4bba7ee3]  File "/home/akshayghime/.local/lib/python3.10/site-packages/metaflow/flowspec.py", line 445, in __getattr__
+[MFLOG|0|2025-04-14T09:18:06.050277Z|runtime|3998e67a-2c24-4ffe-b3ea-be30ec601940]    raise AttributeError("Flow %s has no attribute '%s'" % (self.name, name))
+[MFLOG|0|2025-04-14T09:18:06.050301Z|runtime|6f03b1ff-7cd1-412c-ba5c-1e9be7a1b312]AttributeError: Flow FraudDetectionFlow has no attribute 'auc'
+[MFLOG|0|2025-04-14T09:18:06.050325Z|runtime|834249c9-1ff6-49be-aadc-9ec4c10ec396]
+[MFLOG|0|2025-04-14T09:18:06.050528Z|runtime|b9dbf220-b5fa-4811-99a1-f7b79b4ee23a]Task failed.

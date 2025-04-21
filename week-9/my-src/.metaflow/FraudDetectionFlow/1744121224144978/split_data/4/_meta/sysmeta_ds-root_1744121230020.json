@@ -1,0 +1,1 @@
+{"flow_id": "FraudDetectionFlow", "run_number": "1744121224144978", "step_name": "split_data", "task_id": "4", "field_name": "ds-root", "type": "ds-root", "value": "/home/akshayghime/NYU-Practicals/week-9/my-src/.metaflow", "tags": ["attempt_id:0"], "user_name": "akshayghime", "ts_epoch": 1744121230020}
